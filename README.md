@@ -13,26 +13,29 @@ Voordat je begint, zorg ervoor dat je de volgende vereisten hebt geïnstalleerd 
 
 Je kunt pandas en openpyxl installeren via pip met de volgende commando's:
 
-bash
+    bash
 
-pip install pandas
-pip install openpyxl
+    pip install pandas
+    pip install openpyxl
 
-Configuratie
+## Configuratie
 
-    Trefwoord Regels Definiëren: Voordat je het script uitvoert, moet je de trefwoord_regels variabele in het script configureren. Dit is een woordenboek waarin elke sleutel een industrie vertegenwoordigt en elke waarde een lijst van trefwoorden bevat die geassocieerd zijn met die industrie.
+Trefwoord Regels Definiëren: Voordat je het script uitvoert, moet je de trefwoord_regels variabele in het script configureren. Dit is een woordenboek waarin elke sleutel een industrie vertegenwoordigt en elke waarde een lijst van trefwoorden bevat die geassocieerd zijn met die industrie.
 
-    Invoerbestand Voorbereiden: Je invoer moet een Excel-bestand zijn dat de namen van organisaties bevat. Zorg ervoor dat de kolom met organisatienamen correct is benoemd zodat het script deze kan herkennen.
+Invoerbestand Voorbereiden: Je invoer moet een Excel-bestand zijn dat de namen van organisaties bevat. Zorg ervoor dat de kolom met organisatienamen correct is benoemd zodat het script deze kan herkennen.
 
-Gebruik
+## Gebruik
 
 Om het script te gebruiken, volg deze stappen:
 
-    Open het script in je favoriete Python-editor of IDE.
-    Pas de invoer_bestand en uitvoer_bestand variabelen aan het begin van het script aan om het pad naar je invoer-Excel-bestand en de gewenste locatie voor het uitvoer-bestand aan te geven.
-    Voer het script uit. Het script leest je invoerbestand, classificeert elke organisatie op basis van de gedefinieerde trefwoordregels, en slaat het resultaat op in het opgegeven uitvoerbestand.
+Open het script in je favoriete Python-editor of IDE.
+    
+Pas de invoer_bestand en uitvoer_bestand variabelen aan het begin van het script aan om het pad naar je invoer-Excel-bestand en de gewenste locatie voor het uitvoer-bestand aan te geven.
 
-Voorbeeld
+Voer het script uit. Het script leest je invoerbestand, classificeert elke organisatie op basis van de gedefinieerde trefwoordregels, en slaat het resultaat op in het opgegeven uitvoerbestand.
+
+    
+## Voorbeeld
 
 Stel, je hebt een Excel-bestand organisaties.xlsx met een kolom ORG_NAAM die de namen van de organisaties bevat. Na het configureren van de trefwoordregels en het uitvoeren van het script, zal het script een nieuw Excel-bestand geclassificeerde_organisaties.xlsx genereren met een toegevoegde kolom Industrie Classificatie, die de geïdentificeerde industrie voor elke organisatie aangeeft.
 Bijdragen
