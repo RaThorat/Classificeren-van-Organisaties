@@ -3,7 +3,8 @@ de automatische classificatie van organisaties Gezondheid, Sport en Onderwijs
 Organisatie Classificatie Script
 
 Dit Python-script biedt een efficiënte oplossing voor het automatisch classificeren van organisaties op basis van hun naam. Door vooraf gedefinieerde trefwoordregels toe te passen, kan het script de industrie identificeren waartoe elke organisatie behoort, wat essentieel is voor databeheer en gerichte marketingstrategieën. Dit document begeleidt je door de installatie, configuratie en het gebruik van dit script.
-Installatie
+
+## Installatie
 
 Voordat je begint, zorg ervoor dat je de volgende vereisten hebt geïnstalleerd op je systeem:
 
