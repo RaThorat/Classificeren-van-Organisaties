@@ -45,9 +45,3 @@ Voer het script uit. Het script leest je invoerbestand, classificeert elke organ
 ## Voorbeeld
 
 Stel, je hebt een Excel-bestand organisaties.xlsx met een kolom ORG_NAAM die de namen van de organisaties bevat. Na het configureren van de trefwoordregels en het uitvoeren van het script, zal het script een nieuw Excel-bestand geclassificeerde_organisaties.xlsx genereren met een toegevoegde kolom Industrie Classificatie, die de geïdentificeerde industrie voor elke organisatie aangeeft.
-Bijdragen
-
-Bijdragen aan dit project zijn welkom! Voel je vrij om fork te maken, aanpassingen te doen, en pull requests te sturen voor eventuele verbeteringen, nieuwe features, of bug fixes.
-Licentie
-
-Dit project is gelicenseerd onder de MIT Licentie - zie het LICENSE bestand voor details.
