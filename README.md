@@ -1,8 +1,14 @@
-# Classificeren-van-Organisaties
-de automatische classificatie van organisaties Gezondheid, Sport en Onderwijs
-Organisatie Classificatie Script
+# Automatisering van Standaard Bedrijfsindeling (SBI codes) voor Sectoren Gezondheidszorg, Sport en Onderwijs
 
-Dit Python-script biedt een efficiënte oplossing voor het automatisch classificeren van organisaties op basis van hun naam. Door vooraf gedefinieerde trefwoordregels toe te passen, kan het script de industrie identificeren waartoe elke organisatie behoort, wat essentieel is voor databeheer en gerichte marketingstrategieën. Dit document begeleidt je door de installatie, configuratie en het gebruik van dit script.
+Ik heb een python script geschreven om de organisaties binnen sector gezondheid, sport en onderwijs te delen in standaard bedrijfsindeling (SBI) obv vooraf gedefinieerde trefwoordregels.
+
+Het script gaat ervan uit dat elke organisatienaam unieke trefwoorden bevat die duidelijk wijzen op de industrie waartoe het behoort. De input naar script is een Excel-bestand met kolom van organisatie namen.
+
+Het script slaat de resultaten op in het opgegeven uitvoerbestand. Het script classificeert organisaties accuraat in de vooraf bepaalde categorieën, zoals ziekenhuizen, onderwijsinstellingen, en maatschappelijke dienstverlening.
+
+De resultaten benadrukken de potentie voor tijdsbesparing en verbeterde nauwkeurigheid in organisatieclassificatie taken. 
+
+Je kan dit script verbeteren voor jouw eigen sector door de trefwoordregels te uitbreiden.
 
 ## Installatie
 
